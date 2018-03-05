@@ -1,0 +1,52 @@
+﻿A Thread is a light weighted process.
+
+Threading namespace contains classes and interfaces to provide the facility of multithreaded programming.
+
+A list of commonly used classes are given below:
+
+1.Thread
+2. Mutex
+3. Timer
+4. Monitor
+5. Semaphore
+6. ThreadLocal
+7. ThreadPool
+8. Volatile etc.
+
+C# Thread Life Cycle
+-------------------------
+
+There are following states in the life cycle of a Thread in C#.
+
+. Unstarted
+. Runnable (Ready to run)
+. Running
+. Not Runnable
+. Dead (Terminated)
+
+
+Unstarted State
+----------------
+When the instance of Thread class is created, it is in unstarted state by default.
+
+Runnable State
+----------------
+When start() method on the thread is called, it is in runnable or ready to run state.
+
+Running State
+-----------------
+Only one thread within a process can be executed at a time.
+ At the time of execution, thread is in running state.
+
+ Not Runnable State
+ ----------------------
+The thread is in not runnable state,
+ if sleep() or wait() method is called on the thread, or input/output operation is blocked.
+
+ Dead State
+ ---------------
+After completing the task, thread enters into dead or terminated state.
+
+
+
+
